@@ -1,26 +1,36 @@
-**## شرح مفصل لكل سطر:**
+## README.md
 
-**### 1. ضمّ المكتبة:**
+This file provides a line-by-line explanation of the following C++ code:
 
-*   `#include <iostream>`: هذا السطر يُخبر المُجمّع بضرورة ضمّ محتويات ملف التّعريف `iostream`، والذي يحتوي على تعريفات الدّوال اللازمة لعمليات الإدخال والإخراج.
+```c++
+#include <iostream>
 
-**### 2. تعريف الدالة الرئيسية:**
+int main ()
+{
+    std::cout << "Mohammed Abu-Hadhoud";
 
-*   `int main()`: تُعدّ هذه الدالة نقطة الدخول لبرنامج C++. تُعرّف الدالة نوع القيمة التي تُرجعها (int في هذه الحالة) واسمها (main).
+    return 0;
+}
+```
 
-**### 3. عرض النص:**
+### `#include <iostream>`
 
-*   `std::cout << "Mohammed Abu-Hadhoud";`: يُستخدم هذا السطر لعرض النص "Mohammed Abu-Hadhoud" على شاشة الكمبيوتر. 
-    *   `std::cout`: هو كائن يُستخدم لعرض البيانات على شاشة الكمبيوتر.
-    *   `<<`: هو عامل الإدخال الذي يُستخدم لوضع البيانات في كائن `std::cout`.
-    *   `"Mohammed Abu-Hadhoud"`: هو النص الذي سيتم عرضه.
+This line is a preprocessor directive that tells the compiler to include the `iostream` header file. The `iostream` header file contains the declarations for the standard input and output streams, which are used to read and write data to the console.
 
-**### 4. إرجاع قيمة:**
+### `int main ()`
 
-*   `return 0;`: يُستخدم هذا السطر لإنهاء البرنامج وإرجاع قيمة 0. تُشير قيمة 0 إلى أنّ البرنامج قد تمّ تنفيذه بنجاح.
+This line declares the `main()` function, which is the entry point for the program. The `int` keyword indicates that the `main()` function returns an integer value. The parentheses after `main` indicate the function's parameter list. In this case, the `main()` function does not take any parameters.
 
-**## ملاحظات:**
+### `std::cout << "Mohammed Abu-Hadhoud";`
 
-*   يُعدّ هذا مثالاً بسيطًا لبرنامج C++. 
-*   تُستخدم تعليقات `//` لشرح الغرض من كل سطر من الكود.
-*   للمزيد من المعلومات حول لغة البرمجة C++، يُمكنك الرجوع إلى المراجع المذكورة سابقًا.
+This line uses the `std::cout` object to print the string "Mohammed Abu-Hadhoud" to the console. The `<<` operator is the insertion operator, which is used to insert data into a stream. In this case, the data being inserted is the string "Mohammed Abu-Hadhoud".
+
+### `return 0;`
+
+This line returns an integer value of 0 from the `main()` function. This is a standard way to indicate that the program has executed successfully.
+
+### Summary
+
+This C++ program prints the string "Mohammed Abu-Hadhoud" to the console.
+
+I hope this explanation is helpful. Please let me know if you have any other questions.
